@@ -27,4 +27,4 @@ function processData(data) {
         API.fetch(item.delay, item.simulateError)
       );
       return Promise.all(fetchPromises);
-  }
+}
